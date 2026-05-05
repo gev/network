@@ -18,6 +18,7 @@ module Network.Socket.Options (
                 ,UseLoopBack,UserTimeout,IPv6Only
                 ,RecvIPv4TTL,RecvIPv4TOS,RecvIPv4PktInfo,DontFragment
                 ,RecvIPv6HopLimit,RecvIPv6TClass,RecvIPv6PktInfo
+                ,MulticastIF,MulticastTTL,MulticastLoop,AddMembership,DropMembership
                 ,CustomSockOpt)
   , isSupportedSocketOption
   , whenSupported
